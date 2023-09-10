@@ -340,6 +340,7 @@ body {
 }
 .advertise img:hover{
     filter: brightness(0.4);
+    z-index: 1;
 }
 .advertise_text{
     position: absolute;
