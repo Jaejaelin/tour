@@ -336,7 +336,7 @@ body {
     object-position: 0 -100px;
     transition: 0.4s;
     filter: brightness(0.9);
-    
+    z-index: 1;
 }
 .advertise img:hover{
     filter: brightness(0.4);
@@ -351,6 +351,7 @@ body {
     text-align: center;
     font-size: 35px;
     font-family: 'Poppins', sans-serif;
+    z-index: 2;
 }
 
 
