@@ -327,27 +327,18 @@ body {
 .advertise {
     width: 100%;
     height: 450px;
-    /*overflow: hidden;*/
-    position: relative;
-}
-
-.advertise_img {
-    width: 100%;
-}
-
-.advertise_img img {
-    width: 100%;
-    object-fit: cover;
+    background-image: url(img/bridge.jpg);
+    background-repeat : no-repeat;
+    background-size: 100%;
+    background-position:0 -60px;
 }
 
 .advertise_text {
-    position: absolute;
-    width: 80%;
-    top: 5%;
-    left: 10%;
-    color: gold;
+    color: #f7f7f7;
     font-size: 35px;
     text-align: center;
+    padding: 180px;
+    font-family: 'Poppins', sans-serif;
 }
 
 
